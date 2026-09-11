@@ -1,3 +1,5 @@
+package practice_1;
+
 /**
  * - - - [1] - - -
  * First, we declare the class.

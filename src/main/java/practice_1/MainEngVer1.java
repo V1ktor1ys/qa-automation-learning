@@ -1,7 +1,9 @@
+package practice_1;
+
 /**
  * - - - [1] - - -
  * First, we declare the class.
- * - We use the `public` access modifier, the `class` keyword, and the class name `MainEngVer1` in PascalCase.
+ * - We use the `public` access modifier, the `class` keyword, and the class name `practice_1.MainEngVer1` in PascalCase.
  * - If inheritance is needed, we specify `extends`. If interface implementation is needed, we specify `implements`.
  * - We can also add additional modifiers, such as `final` or `abstract`, if necessary.
  */

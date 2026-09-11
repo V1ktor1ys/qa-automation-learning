@@ -1,7 +1,9 @@
+package practice_1;
+
 /**
  * - - - [1] - - -
- * Создадим новый класс с именем UserInfoRus используя PascalCase и далее автоматически создается определение класса,
- * который включает в себя модификатор доступа public, ключевое слово class, и имя класса UserInfoRus
+ * Создадим новый класс с именем practice_1.UserInfoRus используя PascalCase и далее автоматически создается определение класса,
+ * который включает в себя модификатор доступа public, ключевое слово class, и имя класса practice_1.UserInfoRus
  */
 public class UserInfoRus {
 
@@ -85,16 +87,16 @@ public class UserInfoRus {
         /**
          * - - - [7] - - -
          * Создаем новый обьект через оператор new
-         * - Обьявляем переменную с типом данных UserInfoRus, и именем userInfoRus
-         * - Далее инициализируем переменную userInfoRus типа данных UserInfoRus с помощью оператора new и вызова конструктора
-         * по умолчанию UserInfoRus()
+         * - Обьявляем переменную с типом данных practice_1.UserInfoRus, и именем userInfoRus
+         * - Далее инициализируем переменную userInfoRus типа данных practice_1.UserInfoRus с помощью оператора new и вызова конструктора
+         * по умолчанию practice_1.UserInfoRus()
          */
         UserInfoRus userInfoRus = new UserInfoRus();
 
         /**
          * - - - [10] - - -
          * Таким образом после создания нового экземпляра обьекта присвоенного внутрь переменной userInfoRus с типом
-         * данных UserInfoRus, мы можем установить внутри полей нужные значения.
+         * данных practice_1.UserInfoRus, мы можем установить внутри полей нужные значения.
          * Обратимся к userInfoRus и вызовем метод setName и передадим аргумент имени напр. "Олег"
          */
         userInfoRus.setName("Олег");

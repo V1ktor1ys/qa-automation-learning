@@ -1,3 +1,5 @@
+package practice_1;
+
 /**
  * - - - [1] - - -
  *

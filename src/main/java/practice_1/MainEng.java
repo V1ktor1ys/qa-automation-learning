@@ -1,6 +1,8 @@
+package practice_1;
+
 /**
  * - - - [1] - - -
- * First, we declare the class that contains: public as an access modifier, key word class, class name 'MainEng' in PascalCase format.
+ * First, we declare the class that contains: public as an access modifier, key word class, class name 'practice_1.MainEng' in PascalCase format.
  * - (optional) If we need inheritance, we specify `extends`, if interface implementation is needed, specify `implements`;
  * also include any additional modifiers, such as `final` or `abstract`, if necessary.
  */
