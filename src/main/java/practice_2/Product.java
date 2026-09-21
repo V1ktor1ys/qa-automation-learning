@@ -7,8 +7,8 @@ package practice_2;
  */
 public class Product {
 
-    String name;
-    double price;
+    private String name;
+    private double price;
 
     Product(String name, double price) {
         this.name = name;
@@ -28,7 +28,7 @@ public class Product {
     }
 
     public void applyDiscount(double discount) {
-        this.price = this.price - discount;
+        this.price = price - (price * (discount / 100));
     }
 
     public void printInfo() {

@@ -80,7 +80,11 @@ public class Main {
          System.out.println("HW - Task_9");
          Product product1 = new Product("Product_1", 100.5);
          product1.printInfo();
-         product1.applyDiscount(50);
+         product1.setPrice(500);
+         product1.printInfo();
+         product1.applyDiscount(75);
+         product1.printInfo();
+         product1.applyDiscount(10);
          product1.printInfo();
 
          //HW - Task_10

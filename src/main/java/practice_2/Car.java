@@ -8,8 +8,8 @@ package practice_2;
 
 public class Car {
 
-    String brand;
-    int year;
+    private String brand;
+    private int year;
 
     Car(String brand, int year) {
         this.brand = brand;

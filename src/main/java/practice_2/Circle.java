@@ -6,25 +6,25 @@ package practice_2;
  */
 public class Circle {
 
-    float radius;
+    private double radius;
 
-    Circle(float radius) {
+    Circle(double radius) {
         this.radius = radius;
     }
 
-    float getRadius() {
+    double getRadius() {
         return this.radius;
     }
 
-    void setRadius(float newRadius) {
+    void setRadius(double newRadius) {
         this.radius = newRadius;
     }
 
-    public float calculateArea() {
-        return (float) (Math.PI * Math.pow(radius, 2));
+    public double calculateArea() {
+        return (Math.PI * Math.pow(radius, 2));
     }
 
-    public float calculateCircumference() {
-        return (float) (2 * Math.PI * radius);
+    public double calculateCircumference() {
+        return (2 * Math.PI * radius);
     }
 }

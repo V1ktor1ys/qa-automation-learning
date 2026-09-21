@@ -6,8 +6,8 @@ package practice_2;
  */
 public class Rectangle {
 
-    double width;
-    double height;
+    private double width;
+    private double height;
 
     Rectangle(double width, double height) {
         this.width = width;
