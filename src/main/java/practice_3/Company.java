@@ -35,5 +35,9 @@ public class Company {
         System.out.println("CompanyName: " + companyName + ", EmployeeID: " + employeeID + ", EmployeeName: " + employeeName);
     }
 
+//    void setEmployeeID(int newEmployeeID) {
+//        this.employeeID = newEmployeeID;
+//    }
+
 
 }

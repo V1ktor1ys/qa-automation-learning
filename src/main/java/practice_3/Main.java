@@ -12,6 +12,7 @@ public class Main {
 //        Student.printMaxYears();
 
         //Task-1
+        System.out.println("- - - Task-1 - - -");
         Company.printCompanyName();
         Company employee1 = new Company(1, "EmployeeName_1");
         employee1.printEmployee();
@@ -23,6 +24,7 @@ public class Main {
         employee2.printEmployee();
 
         //Task-2
+        System.out.println("- - - Task-2 - - -");
         double square1 = MathConstants.calculateCircleArea(10);
         System.out.println(square1);
         double square2 = MathConstants.calculateCircleArea(20);
@@ -36,7 +38,16 @@ public class Main {
         double exponentialGrowth2 = MathConstants.calculateExponentialGrowth(20, 4, 10);
         System.out.println(exponentialGrowth2);
 
+        //Task-3
+        System.out.println("- - - Task-3 - - -");
+        LibraryTest libraryTest = new LibraryTest();
+        System.out.println(libraryTest.a);
+        System.out.println(libraryTest.b);
+        System.out.println(libraryTest.c);
+        System.out.println(libraryTest.d2);
+
         //Task-4
+        System.out.println("- - - Task-4 - - -");
         University student1 = new University(1, "StudentName_1");
         University student2 = new University(2, "StudentName_2");
         University student3 = new University(3, "StudentName_3");
@@ -49,6 +60,7 @@ public class Main {
         student3.printStudentInfo();
 
         //Task-5
+        System.out.println("- - - Task-5 - - -");
         GameSettings game1 = new GameSettings("GameName1");
         GameSettings game2 = new GameSettings("GameName2");
         game1.printGameStatus();
@@ -68,6 +80,7 @@ public class Main {
         game2.printGameStatus();
 
         //Task-6
+        System.out.println("- - - Task-6 - - -");
         Person person1 = new Person("FirstName_1", "LastName_1", "111-11-1111");
         Person person2 = new Person("FirstName_2", "LastName_2", "222-22-2222");
         person1.printPersonInfo();
