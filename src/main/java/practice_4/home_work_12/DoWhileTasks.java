@@ -81,6 +81,8 @@ public class DoWhileTasks {
         System.out.print("Enter the number: ");
         int number = scanner.nextInt();
 
+        number = Math.abs(number);
+
         int count = 1;
         do {
             if (number / 10 == 0) {
@@ -89,7 +91,7 @@ public class DoWhileTasks {
                 number = number / 10;
                 count++;
             }
-        } while (count <= number);
+        } while (number != 0);
 
         System.out.println("Number has " + count + " symbols");
     }

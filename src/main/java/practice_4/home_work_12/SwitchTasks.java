@@ -87,17 +87,17 @@ public class SwitchTasks {
         System.out.print("Enter the value of your Grade: ");
         int grade = scanner.nextInt();
 
-        switch (grade) {
-            case 100, 99, 98, 97, 96, 95, 94, 93, 92, 91, 90:
+        switch (grade / 10) {
+            case 10, 9:
                 System.out.println("Your Letter Grade is: A");
                 break;
-            case 89, 88, 87, 86, 85, 84, 83, 82, 81, 80:
+            case 8:
                 System.out.println("Your Letter Grade is: B");
                 break;
-            case 79, 78, 77, 76, 75, 74, 73, 72, 71, 70:
+            case 7:
                 System.out.println("Your Letter Grade is: C");
                 break;
-            case 69, 68, 67, 65, 64, 63, 62, 61, 60:
+            case 6:
                 System.out.println("Your Letter Grade is: D");
                 break;
             default:

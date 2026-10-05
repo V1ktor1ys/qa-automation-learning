@@ -124,7 +124,7 @@ public class IfElseTasks {
 
         if (age < 18) {
             System.out.println("Your discount is 25%");
-        } else if (age > 65) {
+        } else if (age >= 65) {
             System.out.println("Your discount is 30%");
         } else {
             System.out.println("You don't have any discounts :(");

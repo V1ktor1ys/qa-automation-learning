@@ -35,6 +35,7 @@ public class BreakContinueTasks {
             number = scanner.nextInt();
 
             if (number < 0) {
+                System.out.println("The SUM of ALL Numbers are: " + sum);
                 break;
             } else {
                 sum = sum + number;

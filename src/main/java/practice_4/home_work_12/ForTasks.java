@@ -69,6 +69,11 @@ public class ForTasks {
         System.out.print("Enter the number: ");
         int number = scanner.nextInt();
 
+        if (number <= 1) {
+            System.out.println("Number " + number + " is NOT a Prime Number");
+            return;
+        }
+
         boolean isPrime = true;
 
         for (int i = 2; i < number; i++) {
