@@ -9,7 +9,7 @@ public class Museum {
 
     public void addExhibit(Exhibit exhibit) {
         this.exhibit = exhibit;
-        System.out.println("Exhibit is added to the Luna Park");
+        System.out.println("Exhibit is added to the Museum");
     }
 
     public void storageExhibit() {

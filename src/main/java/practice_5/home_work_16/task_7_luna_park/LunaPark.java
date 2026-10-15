@@ -2,7 +2,7 @@ package practice_5.home_work_16.task_7_luna_park;
 
 public class LunaPark {
 
-    Attraction attraction;
+    private Attraction attraction;
 
     public void addAttraction(Attraction attraction) {
         this.attraction = attraction;

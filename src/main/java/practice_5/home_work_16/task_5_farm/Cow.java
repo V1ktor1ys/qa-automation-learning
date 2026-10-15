@@ -11,4 +11,10 @@ public class Cow extends Animal implements Producible, Functionable {
     public void function() {
         System.out.println("Cow is walking on the grace");
     }
+
+    @Override
+    void manage() {
+        produce();
+        function();
+    }
 }

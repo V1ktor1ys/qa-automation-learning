@@ -11,4 +11,10 @@ public class Chicken extends Animal implements Producible, Functionable {
     public void function() {
         System.out.println("Chicken is eating grain based feed");
     }
+
+    @Override
+    void manage() {
+        produce();
+        function();
+    }
 }

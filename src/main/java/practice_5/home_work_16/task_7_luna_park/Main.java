@@ -1,7 +1,5 @@
 package practice_5.home_work_16.task_7_luna_park;
 
-import practice_3.Library;
-
 public class Main {
     static void main(String[] args) {
 
