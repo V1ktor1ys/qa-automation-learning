@@ -2,6 +2,7 @@ package practice_6.home_work_20.ArrayListTasks;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 /**
  * Создайте ArrayList из строк. Найдите в нём самую длинную строку и выведите её.
@@ -9,7 +10,7 @@ import java.util.Arrays;
 
 public class Task3 {
 
-    private ArrayList<String> strings;
+    private List<String> strings;
 
     public Task3() {
         this.strings = new ArrayList<>();

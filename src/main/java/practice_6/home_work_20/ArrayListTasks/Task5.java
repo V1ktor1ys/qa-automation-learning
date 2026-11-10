@@ -2,6 +2,7 @@ package practice_6.home_work_20.ArrayListTasks;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 /**
  * Создайте ArrayList из целых чисел. Напишите программу, которая находит и выводит максимальное число из списка.
@@ -9,7 +10,7 @@ import java.util.Arrays;
 
 public class Task5 {
 
-    private ArrayList<Integer> numbers;
+    private List<Integer> numbers;
 
     public Task5() {
         this.numbers = new ArrayList<>();

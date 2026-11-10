@@ -2,6 +2,7 @@ package practice_6.home_work_20.HashSetTasks;
 
 import java.util.Arrays;
 import java.util.HashSet;
+import java.util.Set;
 
 /**
  * Создайте HashSet, содержащий набор имен. Напишите программу, которая проверяет, содержится ли ваше имя в множестве,
@@ -10,7 +11,7 @@ import java.util.HashSet;
 
 public class Task4 {
 
-    private HashSet<String> names;
+    private Set<String> names;
 
     public Task4() {
         this.names = new HashSet<>();

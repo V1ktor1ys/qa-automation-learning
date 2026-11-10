@@ -1,6 +1,7 @@
 package practice_6.home_work_20.HashMapTasks;
 
 import java.util.HashMap;
+import java.util.Map;
 
 /**
  * Проверьте, есть ли определённое имя в HashMap.
@@ -8,7 +9,7 @@ import java.util.HashMap;
 
 public class Task2 {
 
-    private HashMap<String, Integer> contacts;
+    private Map<String, Integer> contacts;
 
     public Task2() {
         this.contacts = new HashMap<>();

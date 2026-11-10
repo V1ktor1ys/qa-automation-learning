@@ -1,6 +1,7 @@
 package practice_6.home_work_20.HashMapTasks;
 
 import java.util.HashMap;
+import java.util.Map;
 
 /**
  * Создайте HashMap<String, Integer>, добавьте 5 пар (имя – возраст) и выведите все записи.
@@ -8,7 +9,7 @@ import java.util.HashMap;
 
 public class Task1 {
 
-    private HashMap<String, Integer> contacts;
+    private Map<String, Integer> contacts;
 
     public Task1() {
         this.contacts = new HashMap<>();

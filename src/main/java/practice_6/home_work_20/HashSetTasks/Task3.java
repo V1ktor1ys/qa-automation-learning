@@ -10,7 +10,7 @@ import java.util.Set;
 
 public class Task3 {
 
-    Set<String> set;
+    private Set<String> set;
 
     public Set<String> removeDuplicates(List<String> list) {
         this.set = new HashSet<>(list);

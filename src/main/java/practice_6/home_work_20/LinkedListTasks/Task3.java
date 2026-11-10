@@ -2,6 +2,7 @@ package practice_6.home_work_20.LinkedListTasks;
 
 import java.util.Arrays;
 import java.util.LinkedList;
+import java.util.List;
 
 /**
  * Создайте LinkedList, содержащий несколько строк. Напишите программу, которая печатает первый и последний элементы списка.
@@ -9,7 +10,7 @@ import java.util.LinkedList;
 
 public class Task3 {
 
-    private LinkedList<String> list;
+    private List<String> list;
 
     public Task3() {
         this.list = new LinkedList<>();

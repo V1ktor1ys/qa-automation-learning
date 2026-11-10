@@ -1,5 +1,6 @@
 package practice_6.home_work_20.TreeSetTasks;
 
+import java.util.Set;
 import java.util.TreeSet;
 
 /**
@@ -8,7 +9,7 @@ import java.util.TreeSet;
 
 public class Task1 {
 
-    private TreeSet<Integer> numbers;
+    private Set<Integer> numbers;
 
     public Task1() {
         this.numbers = new TreeSet<>();

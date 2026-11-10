@@ -1,5 +1,6 @@
 package practice_6.home_work_20.TreeMapTasks;
 
+import java.util.Map;
 import java.util.TreeMap;
 
 /**
@@ -8,7 +9,7 @@ import java.util.TreeMap;
 
 public class Task1 {
 
-    private TreeMap<String, Integer> students;
+    private Map<String, Integer> students;
 
     public Task1() {
         this.students = new TreeMap<>();

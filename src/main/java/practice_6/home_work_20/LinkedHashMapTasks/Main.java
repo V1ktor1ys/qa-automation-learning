@@ -6,10 +6,10 @@ public class Main {
         // Task-1
         Task1 list1 = new Task1();
         list1.addContact("ccc", 333);
-        list1.printAllContacts();
         list1.addContact("aaa", 111);
-        list1.printAllContacts();
         list1.addContact("bbb", 222);
+        list1.addContact("eee", 555);
+        list1.addContact("ddd", 444);
         list1.printAllContacts();
     }
 }

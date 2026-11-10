@@ -1,6 +1,7 @@
 package practice_6.home_work_20.ArrayDequeTasks;
 
 import java.util.ArrayDeque;
+import java.util.Deque;
 
 /**
  * Создайте ArrayDeque, добавьте 5 элементов и выведите их.
@@ -8,7 +9,7 @@ import java.util.ArrayDeque;
 
 public class Task1 {
 
-    private ArrayDeque<Integer> numbers;
+    private Deque<Integer> numbers;
 
     public Task1() {
         this.numbers = new ArrayDeque<>();

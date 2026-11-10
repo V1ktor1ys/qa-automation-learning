@@ -1,6 +1,7 @@
 package practice_6.home_work_20.PriorityQueueTasks;
 
 import java.util.PriorityQueue;
+import java.util.Queue;
 
 /**
  * Создайте PriorityQueue и добавьте 5 чисел. Выведите их в порядке удаления.
@@ -8,7 +9,7 @@ import java.util.PriorityQueue;
 
 public class Task1 {
 
-    private PriorityQueue<Integer> priorityNumbers;
+    private Queue<Integer> priorityNumbers;
 
     public Task1() {
         this.priorityNumbers = new PriorityQueue<>();

@@ -1,6 +1,7 @@
 package practice_6.home_work_20.LinkedHashSetTasks;
 
 import java.util.LinkedHashSet;
+import java.util.Set;
 
 /**
  * Создайте LinkedHashSet и добавьте в него 5 строк. Проверьте порядок элементов при выводе.
@@ -8,7 +9,7 @@ import java.util.LinkedHashSet;
 
 public class Task1 {
 
-    private LinkedHashSet<String> list;
+    private Set<String> list;
 
     public Task1() {
         this.list = new LinkedHashSet<>();

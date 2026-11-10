@@ -2,6 +2,7 @@ package practice_6.home_work_20.LinkedListTasks;
 
 import java.util.Arrays;
 import java.util.LinkedList;
+import java.util.List;
 
 /**
  * Создайте LinkedList из целых чисел. Напишите программу, которая вычисляет сумму элементов списка.
@@ -9,7 +10,7 @@ import java.util.LinkedList;
 
 public class Task4 {
 
-    private LinkedList<Integer> numbers;
+    private List<Integer> numbers;
 
     public Task4() {
         this.numbers = new LinkedList<>();

@@ -21,8 +21,8 @@ public class Task2 {
 
     public void processAllTasks() {
         while (!tasks.isEmpty()) {
-            tasks.poll();
-            if (!tasks.isEmpty()) System.out.println(tasks);
+            String processingTask = tasks.poll();
+            System.out.println(processingTask);
         }
         System.out.println("All tasks have been processed");
     }

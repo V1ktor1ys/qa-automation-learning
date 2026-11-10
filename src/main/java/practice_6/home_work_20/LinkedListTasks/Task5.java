@@ -2,6 +2,7 @@ package practice_6.home_work_20.LinkedListTasks;
 
 import java.util.Arrays;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.ListIterator;
 
 /**
@@ -10,7 +11,7 @@ import java.util.ListIterator;
 
 public class Task5 {
 
-    private LinkedList<Integer> numbers;
+    private List<Integer> numbers;
     private ListIterator<Integer> it;
 
     public Task5() {

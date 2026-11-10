@@ -22,6 +22,13 @@ public class Main {
         list2.addNumber(-3);
         list2.addNumber(0);
         list2.addNumber(5);
+        list2.addNumber(44);
+        list2.addNumber(55);
+        list2.addNumber(66);
+
+        list2.checkNumber(77);
+        list2.checkNumber(33);
+
         list2.printAllNumbers();
 
         // Task-3

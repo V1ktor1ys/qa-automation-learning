@@ -2,6 +2,7 @@ package practice_6.home_work_20.ArrayListTasks;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 /**
  * Создайте ArrayList из 5 чисел. Добавьте ещё одно число в конец. Выведите весь список.
@@ -9,7 +10,7 @@ import java.util.Arrays;
 
 public class Task1 {
 
-    ArrayList<Integer> numbers;
+    List<Integer> numbers;
 
     public Task1() {
         this.numbers = new ArrayList<>(Arrays.asList(3, 7, 15, 22, 31));

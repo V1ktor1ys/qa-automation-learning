@@ -2,6 +2,7 @@ package practice_6.home_work_20.ArrayListTasks;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 /**
  * Создайте ArrayList из целых чисел. Напишите программу, которая вычисляет и выводит сумму всех чисел в списке.
@@ -9,7 +10,7 @@ import java.util.Arrays;
 
 public class Task4 {
 
-    private ArrayList<Integer> numbers;
+    private List<Integer> numbers;
 
     public Task4() {
         this.numbers = new ArrayList<>();
