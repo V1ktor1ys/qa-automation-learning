@@ -15,7 +15,7 @@ public class Main {
         try {
             library1.findBook("Name4");
         } catch (BookNotFoundException e) {
-            System.out.println("Поймали исключение!!!");
+            System.out.println(e.getMessage());
         }
     }
 }
